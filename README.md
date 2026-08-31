@@ -86,3 +86,30 @@ Author
 Tlakusani Kingdom Masango
 
 Student Number: 10513865
+
+
+
+
+
+   ## Changelog
+
+### Part 2 – CSS Styling and Responsive Design
+
+#### CSS Improvements
+- Created and maintained an external `style.css` stylesheet for the website.
+- Applied consistent typography, colours, spacing, borders and visual styling across all pages.
+- Added Flexbox and CSS Grid layouts where appropriate.
+- Added hover and focus effects to improve user interaction.
+- Improved button styling and navigation presentation.
+
+#### Responsive Design
+- Added responsive CSS media queries for desktop, tablet and mobile screen sizes.
+- Adjusted heading sizes and spacing for smaller screens.
+- Changed multi-column layouts to single-column layouts on mobile devices.
+- Made images responsive to prevent overflow on smaller screens.
+- Adjusted hero content and buttons for mobile usability.
+
+#### Testing
+- Tested the website using browser developer tools at different viewport sizes.
+- Tested desktop, tablet and mobile layouts.
+- Made iterative CSS adjustments to improve readability and navigation across different screen sizes.
