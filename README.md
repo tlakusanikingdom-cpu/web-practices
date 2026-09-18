@@ -111,5 +111,39 @@ Student Number: 10513865
 
 #### Testing
 - Tested the website using browser developer tools at different viewport sizes.
+- ## Changelog
+
+### Part 2 – CSS Styling and Responsive Design
+- Created an external style.css stylesheet and linked it to all HTML pages.
+- Added a consistent colour scheme, typography, spacing and visual styling.
+- Improved the navigation bar and page layouts.
+- Added responsive styling using CSS media queries.
+- Added hover and focus effects to interactive elements.
+- Improved the Home page with a futuristic EcoTech design and background imagery.
+- Updated the About, Services, Products, Locations, Inquiry and Contact pages to use the same visual design.
+- Added styled product cards and improved the Products page layout.
+- Added location/map presentation to the Locations page.
+- Added a complete footer to the Home page.
+- Tested the website at different screen sizes and corrected layout issues.
+
+- References
+MDN Web Docs – CSS
+Used as a reference for CSS selectors, properties, layouts, Flexbox, Grid, pseudo-classes, and responsive design.
+MDN CSS Reference⁠�
+MDN Web Docs – CSS Flexbox
+Used to understand and implement flexible page layouts and alignment.
+MDN Flexbox Guide⁠�
+MDN Web Docs – CSS Grid
+Used as a reference for creating structured grid-based layouts.
+MDN CSS Grid Guide⁠�
+MDN Web Docs – Media Queries
+Used for implementing responsive styling for desktop, tablet, and mobile screen sizes.
+MDN Media Queries⁠�
+W3C – CSS Specifications
+Used as a general reference for standard CSS rules and web styling practices.
+W3C CSS⁠�
+Google Fonts
+Used as a reference for web typography and font selection.
+Google Fonts⁠�
 - Tested desktop, tablet and mobile layouts.
 - Made iterative CSS adjustments to improve readability and navigation across different screen sizes.
