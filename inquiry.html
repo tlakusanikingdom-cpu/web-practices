@@ -1,95 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inquiry - EcoTech Solutions</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Make an Inquiry</h1>
+    <header class="site-header">
+        <div class="brand">
+            <div class="logo-circle">♻</div>
+            <div>
+                <h1>EcoTech <span>Solutions</span></h1>
+                <small>SUSTAINABLE TECH</small>
+            </div>
+        </div>
 
         <nav>
-            <a href="index.html">Home</a> |
-            <a href="about.html">About</a> |
-            <a href="services.html">Services</a> |
-            <a href="products.html">Products</a> |
-            <a href="locations.html">Locations</a> |
-            <a href="inquiry.html">Inquiry</a> |
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="products.html">Products</a>
+            <a href="locations.html">Locations</a>
+            <a href="inquiry.html" class="active">Inquiry</a>
             <a href="contact.html">Contact</a>
         </nav>
+        
+        <a href="inquiry.html" class="header-button">Get in Touch</a>
     </header>
 
-    <main>
-
-        <h2>Inquiry Form</h2>
-
-        <p>
-            Complete the form below to make an inquiry about
-            our products or services.
+    <main class="page-content">
+        <p class="page-subtitle">PRODUCT & SERVICE INQUIRIES</p>
+        <h1 class="page-title">MAKE AN INQUIRY</h1>
+        <p class="page-description">
+            Complete the form below to inquire about our refurbished hardware, IT services, or eco-friendly electronics. 
+            Our team will process your request promptly.
         </p>
 
-        <form action="#" method="post">
+        <div style="max-width: 700px; margin: 0 auto; position: relative; z-index: 2;">
+            <form action="#" method="post" data-tilt>
+                
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
 
-            <label for="name">Full Name:</label>
-            <br>
-            <input type="text" id="name" name="name" required>
-            <br><br>
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="name@example.com" required>
 
-            <label for="email">Email Address:</label>
-            <br>
-            <input type="email" id="email" name="email" required>
-            <br><br>
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+27 00 000 0000">
 
-            <label for="phone">Phone Number:</label>
-            <br>
-            <input type="tel" id="phone" name="phone">
-            <br><br>
+                <label for="interest">Product or Service *</label>
+                <select id="interest" name="interest" required>
+                    <option value="" disabled selected>Select an option...</option>
+                    <option value="IT Support">IT Support</option>
+                    <option value="Website Development">Website Development</option>
+                    <option value="Device Recycling">Device Recycling</option>
+                    <option value="Computer Refurbishment">Computer Refurbishment</option>
+                    <option value="Refurbished Laptop">Refurbished Laptop</option>
+                    <option value="Refurbished Desktop">Refurbished Desktop</option>
+                    <option value="Eco Accessories">Eco Accessories</option>
+                    <option value="Eco-Friendly Electronics">Eco-Friendly Electronics</option>
+                </select>
 
-            <label for="interest">Product or Service:</label>
-            <br>
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" rows="6" placeholder="Describe your requirement or questions..." required></textarea>
 
-            <select id="interest" name="interest" required>
-
-                <option value="">Select an option</option>
-
-                <option>IT Support</option>
-                <option>Website Development</option>
-                <option>Device Recycling</option>
-                <option>Computer Refurbishment</option>
-                <option>Refurbished Laptop</option>
-                <option>Refurbished Desktop</option>
-                <option>Eco Accessories</option>
-                <option>Eco-Friendly Electronics</option>
-
-            </select>
-
-            <br><br>
-
-            <label for="message">Message:</label>
-            <br>
-
-            <textarea
-                id="message"
-                name="message"
-                rows="7"
-                cols="40"
-                required>
-            </textarea>
-
-            <br><br>
-
-            <button type="submit">Submit Inquiry</button>
-
-        </form>
-
+                <button type="submit" class="btn btn-primary" style="width: 100%; border: none; cursor: pointer; margin-top: 10px;">
+                    Submit Inquiry
+                </button>
+            </form>
+        </div>
     </main>
 
     <footer>
-        <p>&copy; 2026 EcoTech Solutions.</p>
+        <p>&copy; 2026 EcoTech Solutions. All Rights Reserved.</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>

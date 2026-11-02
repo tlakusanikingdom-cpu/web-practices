@@ -1,62 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <<link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services - EcoTech Solutions</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Our Services</h1>
+    <header class="site-header">
+        <div class="brand">
+            <div class="logo-circle">♻</div>
+            <div>
+                <h1>EcoTech <span>Solutions</span></h1>
+                <small>SUSTAINABLE TECH</small>
+            </div>
+        </div>
 
         <nav>
-            <a href="index.html">Home</a> |
-            <a href="about.html">About</a> |
-            <a href="services.html">Services</a> |
-            <a href="products.html">Products</a> |
-            <a href="locations.html">Locations</a> |
-            <a href="inquiry.html">Inquiry</a> |
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html" class="active">Services</a>
+            <a href="products.html">Products</a>
+            <a href="locations.html">Locations</a>
+            <a href="inquiry.html">Inquiry</a>
             <a href="contact.html">Contact</a>
         </nav>
+        
+        <a href="inquiry.html" class="header-button">Get in Touch</a>
     </header>
 
-    <main>
-
-        <h2>IT Support</h2>
-
-        <p>
-            Computer setup, troubleshooting, maintenance and basic
-            technical support.
+    <main class="page-content">
+        <p class="page-subtitle">PROFESSIONAL & SUSTAINABLE</p>
+        <h1 class="page-title">OUR SERVICES</h1>
+        <p class="page-description">
+            We provide reliable technology services tailored to students, households, 
+            and small businesses across South Africa, keeping sustainability at our core.
         </p>
 
-        <h2>Website Development</h2>
+        <div class="content-grid">
 
-        <p>
-            We create responsive and user-friendly websites for
-            individuals, organisations and SMEs.
-        </p>
+            <!-- Service Card 1 -->
+            <div class="service-card" data-tilt>
+                <div class="product-badge">Technical</div>
+                <h2>IT Support</h2>
+                <p>
+                    Computer setup, troubleshooting, maintenance, and expert technical support 
+                    to keep your systems running efficiently.
+                </p>
+                <div style="margin-top: 25px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 15px;">
+                    <span style="color: #7dff70; font-weight: bold; font-size: 0.9rem;">On-Site & Remote</span>
+                    <a href="inquiry.html" class="btn-outline" style="padding: 8px 18px; font-size: 11px;">Book Service</a>
+                </div>
+            </div>
 
-        <h2>Device Recycling</h2>
+            <!-- Service Card 2 -->
+            <div class="service-card" data-tilt>
+                <div class="product-badge">Digital</div>
+                <h2>Website Development</h2>
+                <p>
+                    We create responsive, modern, and energy-efficient websites for 
+                    individuals, organizations, and SMEs to build their digital presence.
+                </p>
+                <div style="margin-top: 25px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 15px;">
+                    <span style="color: #7dff70; font-weight: bold; font-size: 0.9rem;">Custom Design</span>
+                    <a href="inquiry.html" class="btn-outline" style="padding: 8px 18px; font-size: 11px;">Book Service</a>
+                </div>
+            </div>
 
-        <p>
-            We encourage responsible recycling and reuse of
-            electronic devices.
-        </p>
+            <!-- Service Card 3 -->
+            <div class="service-card" data-tilt>
+                <div class="product-badge">Green Initiative</div>
+                <h2>Device Recycling</h2>
+                <p>
+                    We encourage responsible e-waste recycling and the safe disposal or reuse 
+                    of electronic devices to protect our environment.
+                </p>
+                <div style="margin-top: 25px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 15px;">
+                    <span style="color: #7dff70; font-weight: bold; font-size: 0.9rem;">Eco-Responsible</span>
+                    <a href="inquiry.html" class="btn-outline" style="padding: 8px 18px; font-size: 11px;">Learn More</a>
+                </div>
+            </div>
 
-        <h2>Computer Refurbishment</h2>
+            <!-- Service Card 4 -->
+            <div class="service-card" data-tilt>
+                <div class="product-badge">Sustainability</div>
+                <h2>Computer Refurbishment</h2>
+                <p>
+                    We give older hardware a second life by providing affordable, high-quality 
+                    refurbished computers for students and household use.
+                </p>
+                <div style="margin-top: 25px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 15px;">
+                    <span style="color: #7dff70; font-weight: bold; font-size: 0.9rem;">Certified Quality</span>
+                    <a href="inquiry.html" class="btn-outline" style="padding: 8px 18px; font-size: 11px;">Inquire Now</a>
+                </div>
+            </div>
 
-        <p>
-            We provide affordable refurbished computers for
-            everyday use.
-        </p>
-
+        </div>
     </main>
 
     <footer>
-        <p>&copy; 2026 EcoTech Solutions.</p>
+        <p>&copy; 2026 EcoTech Solutions. All Rights Reserved.</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
